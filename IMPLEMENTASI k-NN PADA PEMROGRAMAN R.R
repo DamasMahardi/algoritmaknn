@@ -89,7 +89,7 @@ size <- unlist(list(size, sizetambahan))
 size
 
 # klasifikasi dari semuaorang k=3
-klasifikasi3 <- knn(semuaorang, semuaorang, size, k = 3, prob = T)
+klasifikasi3 <- knn(semuaorang, semuaorang, size, k = 3, prob = TRUE)
 klasifikasi3
 
 # melihat kebenaran klasifikasi
@@ -98,7 +98,7 @@ table(klasifikasi3, size)
 
 
 # klasifikasi dari semuaorang k=5
-klasifikasi5 <- knn(semuaorang, semuaorang, size, k =5, prob = T)
+klasifikasi5 <- knn(semuaorang, semuaorang, size, k =5, prob = TRUE)
 klasifikasi5
 
 # melihat kebenaran klasifikasi
